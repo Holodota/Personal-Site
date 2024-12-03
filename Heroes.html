@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            Heroes
+        </title>
+        <style>
+            p{
+                margin-left: 5%;
+                margin-right: 5%;
+                font-size: 50px;
+            }
+            th{
+                font-size: 45px;
+            }
+            .table-text{
+                text-align: center;
+                font-size: 30px;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            img{
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            table{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            body {
+                padding-top: 0px;
+                padding-right: 20px;
+                padding-bottom: 0px;
+                padding-left: 20px;
+            }
+            div {
+                color: #CECECE;
+            }
+            h1 {
+                font-size: 2em;
+                color: #CECECE;
+            }
+            body {
+                background-color: #151618;
+            }
+            .button {
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                    }
+            .button4 {background-color: #ed3b1c;}
+            .button2 {background-color: #4E4B4B;}
+            .button3 {background-color: #4E4B4B;}
+            .button1 {background-color: #4E4B4B;}
+            .button5 {background-color: #4E4B4B;}
+
+        </style>
+    </head>
+    <div style="background-image: url(https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/backgrounds/featured.jpg);">
+        <body>
+            <header>
+                <h1>Defence of The Ancients 2</h1>
+                <nav>
+                    <button class="button button1" onclick="document.location='Index.html'">Home Page</button>
+                    <button class="button button2" onclick="document.location='TheInternational.html'">The International</button>
+                    <button class="button button3" onclick="document.location='TheMap.html'">The Map</button>
+                    <button class="button button4" onclick="document.location='Heroes.html'">Playable Heroes</button>
+                    <button class="button button5" onclick="document.location='PlayerPositions.html'">Player Positions</button>
+                </nav>
+            </header>
+            <div>
+                <img src="img/WK In game.png" alt="Wraith King Hero Select" style="width: 35%;height: 35%;" align="middle" class="wk-in-select">
+            </div>
+            <div>
+                <p align="center">
+                    Heroes in Dota 2 consist of a few key components. The assorted stats next to the hero icon, your four spells, health and mana bars, and lastly your six item slots,
+                    three backpack slots, and a neutral item slot.
+                </p>
+            </div>
+            <div>
+                <table cellpadding="10">
+                    <tr>
+                        <th>
+                            Hero Icon Stats
+                        </th>
+                        <th>
+                            Health and Mana
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <img src="img/IconStats.png" alt="Icon Stats" class="icon-stats-pic">
+                            </div>
+                            <div class="table-text">
+                                Going top to bottom the shown stats are:
+                                <li>
+                                    Attack Damage
+                                </li>
+                                <li>
+                                    Attack Speed
+                                </li>
+                                <li>
+                                    Armor
+                                </li>
+                                <li>
+                                    Magic Resist
+                                </li>
+                                <li>
+                                    Movespeed
+                                </li>
+                                <li>
+                                    Strength Agility Intelligence
+                                </li>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img src="img/HealthandMana.png" alt="Health and Mana" class="health-mana-pic">
+                            </div>
+                            <div class="table-text">
+                               The top bar shows your current/total health, and your health regeneration.
+                               <br> 
+                               Your heroes health is the amount of damage they can take before dying.
+                               <br> 
+                               The bottom bar shows your current/total mana, and your mana regeneration. 
+                               <br>
+                               Mana is a resource your hero uses to cast their spells.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Spells
+                        </th>
+                        <th>
+                            Items
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <img src="img/Spells.png" alt="Spells" class="spells-pic">
+                            </div>
+                            <div class="table-text">
+                                Spells are unique abilities that your hero posesses. 
+                                <br>
+                                They can be seperated into active and passive spells. 
+                                <br>
+                                Active spells have a key you must press to use them. Passive spells, 
+                                <br>
+                                such as the third one shown, are always active and don't need to be pressed.
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img src="img/Items.png" alt="Items" class="items-pic">
+                            </div>
+                            <div class="table-text">
+                                The six main item slots are for purchased, usable items. 
+                                <br>
+                                If an item is places into one of the three backpack slots, it is unable to be used. 
+                                <br>
+                                The two slots on the right are for a neutral item(item dropped from neutral units), and a teleport scroll.
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </body>
+    </div>
+</html>
